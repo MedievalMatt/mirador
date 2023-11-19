@@ -8,21 +8,26 @@
       "show" : false
     },
     "data" : [
-      {
-        "manifestUri" : "http://oculus-dev.harvardx.harvard.edu/manifests/huam:200515",
-        "location": "Harvard University"
-      }
+	{"manifestUri": "http://208.113.165.33/manifests/Lydgate/Testament/clopton.json", 
+            "location": "Holy Trinity, Long Melford"}
     ],
     "windowObjects" : [
-      {
-        "loadedManifest" : "http://oculus-dev.harvardx.harvard.edu/manifests/huam:200515",
-        "canvasID" : "http://oculus-dev.harvardx.harvard.edu/manifests/huam:200515/canvas/canvas-43183641.json",
-        "viewType" : "ImageView",
-        "displayLayout" : false,
-        "bottomPanel" : false,
-        "sidePanel" : false,
-        "annotationLayer" : false
-      }
+              {
+               "loadedManifest": "http://208.113.165.33/manifests/Lydgate/Testament/clopton.json",
+               "canvasID": "http://208.113.165.33/data/manifests/Lydgate/Clopton/canvas/sw_test_hand",
+               "availableViews" : false,
+                // For the example above:
+                // "loadedManifest": "http://dms-data.stanford.edu/data/manifests/Walters/qm670kv1873/manifest.json",
+               // "canvasID" : "http://dms-data.stanford.edu/data/manifests/Walters/qm670kv1873/canvas/canvas-1"
+               "viewType" : "ImageView",
+               "bottomPanel" : false,
+               "sidePanel" : false,
+               "overlay" : false,
+               "annotationLayer" : false,
+               "annotationState" : false,
+               "displayLayout": false,
+               "fullScreen" : false
+             }
     ],
     "buildPath" : "/",
     "i18nPath" : "mirador/locales/",

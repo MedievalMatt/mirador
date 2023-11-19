@@ -12,21 +12,24 @@
 <body>
   <div id="viewer"></div>
 
-  <script src="../../build/mirador/mirador.js"></script>
-  <script type="text/javascript">
-    $(function() {
-
-      Mirador({
-        "id": "viewer",
-        "mainMenuSettings" : {
-          'show' : false
-        },
-        "data": [
-          { "manifestUri": "http://dms-data.stanford.edu/data/manifests/Walters/qm670kv1873/manifest.json", "location": "Stanford University"},
-            ],
-            "windowObjects": [
-              {
-                "loadedManifest": "http://dms-data.stanford.edu/data/manifests/Walters/qm670kv1873/manifest.json",
+  <script src="../../build/mirador/mirador.min.js"></script>
+<script type="text/javascript">
+      $(function() {
+        Mirador({
+          id: "viewer",
+            "mainMenuSettings" : {
+          		'show' : false
+        	},
+          data: [
+                  {
+                    "manifestUri": "http://208.113.165.33/manifests/Lydgate/Quis_Dabit/clopton.json", 
+                    "location": "Church of the Holy Trinity, Long Melford"
+                  },
+                ],                
+                "windowObjects": 
+                  [
+                  {
+                    "loadedManifest": "http://208.113.165.33/manifests/Lydgate/Quis_Dabit/clopton.json",
                 "layoutOptions": {
                   "close": false,
                   "slotRight": false,
@@ -34,11 +37,10 @@
                   "slotAbove": false,
                   "slotBelow": false
                 }
-              }
-            ]
+                   }
+                   ]
+        });
       });
-
-    });
-  </script>
+    </script>
 </body>
 </html>
